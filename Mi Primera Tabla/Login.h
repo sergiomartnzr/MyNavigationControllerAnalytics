@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@import Firebase;
+
 @interface Login : UIViewController
 
 @end

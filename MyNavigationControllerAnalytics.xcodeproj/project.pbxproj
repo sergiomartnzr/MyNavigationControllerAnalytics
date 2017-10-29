@@ -26,6 +26,7 @@
 		ED6511AD1FA57A1700DA8668 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6511AB1FA57A1700DA8668 /* Login.m */; };
 		ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AC1FA57A1700DA8668 /* Login.xib */; };
 		ED6511B01FA57A3D00DA8668 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AF1FA57A3D00DA8668 /* Podfile */; };
+		EDBFEE531FA583FF00402062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDBFEE521FA583FF00402062 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +58,7 @@
 		ED6511AB1FA57A1700DA8668 /* Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		ED6511AC1FA57A1700DA8668 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
 		ED6511AF1FA57A3D00DA8668 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		EDBFEE511FA57EB300402062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDBFEE521FA583FF00402062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */ = {
 			isa = PBXGroup;
 			children = (
+				EDBFEE521FA583FF00402062 /* GoogleService-Info.plist */,
 				D19AFA191F734CFF00D53E56 /* imgs */,
 				D156EDC81F732FCA00AC7251 /* Main */,
 				D156EDC91F732FD500AC7251 /* Controllers */,
@@ -119,7 +121,6 @@
 				D156EDBD1F732FBA00AC7251 /* Assets.xcassets */,
 				D156EDBF1F732FBA00AC7251 /* LaunchScreen.storyboard */,
 				D156EDC21F732FBA00AC7251 /* Info.plist */,
-				EDBFEE511FA57EB300402062 /* GoogleService-Info.plist */,
 				D156EDBA1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld */,
 				D156EDAE1F732FBA00AC7251 /* Supporting Files */,
 			);
@@ -245,6 +246,7 @@
 				D19AFA1F1F734CFF00D53E56 /* arya.jpg in Resources */,
 				D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */,
 				D156EDBE1F732FBA00AC7251 /* Assets.xcassets in Resources */,
+				EDBFEE531FA583FF00402062 /* GoogleService-Info.plist in Resources */,
 				D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */,
 				D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */,
 				D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */,
