@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */; };
+		C6BCDD696737EF18C5B19FFB /* libPods-MyNavigationControllerAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745E24DF320C154A6E62E780 /* libPods-MyNavigationControllerAnalytics.a */; };
 		D156EDB01F732FBA00AC7251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDAF1F732FBA00AC7251 /* main.m */; };
 		D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB21F732FBA00AC7251 /* AppDelegate.m */; };
 		D156EDB61F732FBA00AC7251 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB51F732FBA00AC7251 /* Home.m */; };
@@ -22,11 +23,16 @@
 		D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */; };
 		D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1D1F734CFF00D53E56 /* jon.jpg */; };
 		D19AFA231F734CFF00D53E56 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */; };
+		ED6511AD1FA57A1700DA8668 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6511AB1FA57A1700DA8668 /* Login.m */; };
+		ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AC1FA57A1700DA8668 /* Login.xib */; };
+		ED6511B01FA57A3D00DA8668 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AF1FA57A3D00DA8668 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043FD02CC473D7E0DB717BEC /* Pods-MyNavigationControllerAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNavigationControllerAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics.release.xcconfig"; sourceTree = "<group>"; };
 		1CE7F0551F7BF1CA00D7B268 /* secondViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewViewController.h; sourceTree = "<group>"; };
 		1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewViewController.m; sourceTree = "<group>"; };
+		745E24DF320C154A6E62E780 /* libPods-MyNavigationControllerAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyNavigationControllerAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D156EDAB1F732FBA00AC7251 /* MyNavigationControllerAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNavigationControllerAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D156EDAF1F732FBA00AC7251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D156EDB11F732FBA00AC7251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,7 +52,12 @@
 		D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpeg; sourceTree = "<group>"; };
 		D19AFA1D1F734CFF00D53E56 /* jon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon.jpg; sourceTree = "<group>"; };
 		D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
-		EDF3F0461FA2E689003870AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAC086131B33A0114D37EB51 /* Pods-MyNavigationControllerAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNavigationControllerAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6511AA1FA57A1700DA8668 /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		ED6511AB1FA57A1700DA8668 /* Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		ED6511AC1FA57A1700DA8668 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		ED6511AF1FA57A3D00DA8668 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EDBFEE511FA57EB300402062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +65,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BCDD696737EF18C5B19FFB /* libPods-MyNavigationControllerAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13AE1B46A7BAE5110F51FB0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC086131B33A0114D37EB51 /* Pods-MyNavigationControllerAnalytics.debug.xcconfig */,
+				043FD02CC473D7E0DB717BEC /* Pods-MyNavigationControllerAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF4B9ADCDFB1EC54590DADAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				745E24DF320C154A6E62E780 /* libPods-MyNavigationControllerAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D156EDA21F732FBA00AC7251 = {
 			isa = PBXGroup;
 			children = (
+				ED6511AF1FA57A3D00DA8668 /* Podfile */,
 				D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */,
 				D156EDAC1F732FBA00AC7251 /* Products */,
+				13AE1B46A7BAE5110F51FB0A /* Pods */,
+				CF4B9ADCDFB1EC54590DADAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,8 +119,8 @@
 				D156EDBD1F732FBA00AC7251 /* Assets.xcassets */,
 				D156EDBF1F732FBA00AC7251 /* LaunchScreen.storyboard */,
 				D156EDC21F732FBA00AC7251 /* Info.plist */,
+				EDBFEE511FA57EB300402062 /* GoogleService-Info.plist */,
 				D156EDBA1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld */,
-				EDF3F0461FA2E689003870AE /* GoogleService-Info.plist */,
 				D156EDAE1F732FBA00AC7251 /* Supporting Files */,
 			);
 			path = "Mi Primera Tabla";
@@ -105,6 +137,9 @@
 		D156EDC81F732FCA00AC7251 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				ED6511AA1FA57A1700DA8668 /* Login.h */,
+				ED6511AB1FA57A1700DA8668 /* Login.m */,
+				ED6511AC1FA57A1700DA8668 /* Login.xib */,
 				D156EDB11F732FBA00AC7251 /* AppDelegate.h */,
 				D156EDB21F732FBA00AC7251 /* AppDelegate.m */,
 			);
@@ -151,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D156EDC51F732FBA00AC7251 /* Build configuration list for PBXNativeTarget "MyNavigationControllerAnalytics" */;
 			buildPhases = (
+				7BD2262A3F080AD270423217 /* [CP] Check Pods Manifest.lock */,
 				D156EDA71F732FBA00AC7251 /* Sources */,
 				D156EDA81F732FBA00AC7251 /* Frameworks */,
 				D156EDA91F732FBA00AC7251 /* Resources */,
+				B5AE5D4B53A4C7C5E08A6910 /* [CP] Embed Pods Frameworks */,
+				DBE12B59EB30A1D9BA6A5229 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,10 +249,67 @@
 				D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */,
 				D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */,
 				D19AFA231F734CFF00D53E56 /* tyrion.jpg in Resources */,
+				ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */,
+				ED6511B01FA57A3D00DA8668 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BD2262A3F080AD270423217 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyNavigationControllerAnalytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5AE5D4B53A4C7C5E08A6910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE12B59EB30A1D9BA6A5229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D156EDA71F732FBA00AC7251 /* Sources */ = {
@@ -224,6 +319,7 @@
 				D156EDB61F732FBA00AC7251 /* Home.m in Sources */,
 				D156EDBC1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld in Sources */,
 				D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */,
+				ED6511AD1FA57A1700DA8668 /* Login.m in Sources */,
 				D19AFA011F7336C000D53E56 /* cellMainTable.m in Sources */,
 				D156EDB01F732FBA00AC7251 /* main.m in Sources */,
 				1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */,
@@ -344,6 +440,7 @@
 		};
 		D156EDC61F732FBA00AC7251 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC086131B33A0114D37EB51 /* Pods-MyNavigationControllerAnalytics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mi Primera Tabla/Info.plist";
@@ -356,6 +453,7 @@
 		};
 		D156EDC71F732FBA00AC7251 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043FD02CC473D7E0DB717BEC /* Pods-MyNavigationControllerAnalytics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mi Primera Tabla/Info.plist";
