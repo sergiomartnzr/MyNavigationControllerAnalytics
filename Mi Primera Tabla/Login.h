@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @import Firebase;
+@import GoogleSignIn;
 
 @interface Login : UIViewController
 
