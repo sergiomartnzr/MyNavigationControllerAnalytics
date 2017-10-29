@@ -11,6 +11,12 @@
 @import Firebase;
 @import GoogleSignIn;
 
-@interface Login : UIViewController
+@interface Login : UIViewController <GIDSignInUIDelegate>
+@property (weak, nonatomic) IBOutlet GIDSignInButton *btnSignOutPressed;
+
+//@property(weak, nonatomic) IBOutlet GIDSignInButton *btnSignOutPressed;
+
+//- (IBAction)btnSignInPressed:(id)sender;
+- (IBAction)btnSignOutPressed:(id)sender;
 
 @end

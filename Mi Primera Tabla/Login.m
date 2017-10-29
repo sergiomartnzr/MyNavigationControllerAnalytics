@@ -15,13 +15,39 @@
 @implementation Login
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    //Firebase login
+    //[GIDSignIn sharedInstance].uiDelegate = self;
+    //[[GIDSignIn sharedInstance] signIn];
+    
     // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)btnSignInPressed:(id)sender {
+    [FIRAnalytics logEventWithName:@"Signin_button"
+                        parameters:@{
+                                     @"name": @"Google",
+                                     @"full_text": @"Gmail"
+                                     }];
+    
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    [[GIDSignIn sharedInstance] signIn];
+}
+
+- (IBAction)btnSignOutPressed:(id)sender {
+    NSError *signOutError;
+    BOOL status = [[FIRAuth auth] signOut:&signOutError];
+    if (!status) {
+        NSLog(@"Error signing out: %@", signOutError);
+        return;
+    }
 }
 
 /*

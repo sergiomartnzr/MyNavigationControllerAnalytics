@@ -155,19 +155,28 @@
                                 <state key="normal" title="Logout">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSignOutPressed:" destination="RhB-9Z-Vuc" eventType="touchUpInside" id="fLW-V9-6N4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rw3-Xk-2g8">
                                 <rect key="frame" x="0.0" y="82" width="320" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.32323750740000001" green="0.86508487999999994" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Login with Google">
+                                <state key="normal" title="Sign in with Google">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSignInPressed:" destination="RhB-9Z-Vuc" eventType="touchUpInside" id="mDw-Hm-eLR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="JLh-84-Ss2"/>
+                    <connections>
+                        <outlet property="btnSignOutPressed" destination="rw3-Xk-2g8" id="jfy-WL-kBG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQU-ks-LKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
