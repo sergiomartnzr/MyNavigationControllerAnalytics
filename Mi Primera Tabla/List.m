@@ -6,13 +6,13 @@
 //  Copyright © 2017 wgdomenzain. All rights reserved.
 //
 
-#import "secondViewViewController.h"
+#import "List.h"
 
-@interface secondViewViewController ()
+@interface List ()
 
 @end
 
-@implementation secondViewViewController
+@implementation List
 
 - (void)viewDidLoad {
     [super viewDidLoad];
