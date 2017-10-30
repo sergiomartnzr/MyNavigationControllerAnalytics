@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@import Firebase;
+
 @interface Details : UIViewController 
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UITextField *name;

@@ -26,6 +26,14 @@
         }
     }
 }
+- (IBAction)btnBuyPressed:(id)sender {
+    
+        [FIRAnalytics logEventWithName:@"Buy_button"
+                        parameters:@{
+                                     @"name": self.data[@"name"],
+                                     @"full_text": self.data[@"description"]
+                                     }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

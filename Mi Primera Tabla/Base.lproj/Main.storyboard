@@ -75,6 +75,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnBuyPressed:" destination="egK-DI-51e" eventType="touchUpInside" id="4rs-hs-0dC"/>
                                     <segue destination="rWR-vh-EJU" kind="modal" id="zEH-kr-gw2"/>
                                 </connections>
                             </button>
