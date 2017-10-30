@@ -8,7 +8,7 @@
 
 #import "Home.h"
 #import "cellMainTable.h"
-#import "List.h"
+#import "Details.h"
 
 @interface Home ()
 @property NSMutableArray *userNames;
@@ -151,7 +151,7 @@
     // Make sure your segue name in storyboard is the same as this line
     if ([[segue identifier] isEqualToString:@"secondView"])
     {
-        List *controller = [segue destinationViewController];
+        Details *controller = [segue destinationViewController];
         controller.data = sender;
         NSLog(@"Segueado!!!!!");
 

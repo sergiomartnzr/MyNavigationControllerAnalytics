@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="yrm-fT-ByO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,10 +13,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--List-->
+        <!--Details-->
         <scene sceneID="rdR-8z-pMf">
             <objects>
-                <viewController id="egK-DI-51e" customClass="List" sceneMemberID="viewController">
+                <viewController id="egK-DI-51e" customClass="Details" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3al-8p-ZEr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,7 +75,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rWR-vh-EJU" kind="push" id="SKg-DI-CP8"/>
+                                    <segue destination="rWR-vh-EJU" kind="modal" id="zEH-kr-gw2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -88,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5UH-kf-C8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="124"/>
+            <point key="canvasLocation" x="1377" y="88"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="crf-l0-GmW">
@@ -114,7 +117,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="ESO-SG-G4O"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="JDV-yN-zIi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDo-YG-gEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1292" y="128"/>
+            <point key="canvasLocation" x="1843" y="304"/>
         </scene>
         <!--Login-->
         <scene sceneID="HjZ-c4-9LX">
@@ -242,7 +245,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yrm-fT-ByO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c94-y1-bbQ">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -256,6 +259,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rkO-Tv-lvw"/>
+        <segue reference="zEH-kr-gw2"/>
+        <segue reference="JDV-yN-zIi"/>
     </inferredMetricsTieBreakers>
 </document>

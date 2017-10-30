@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface List : UIViewController
+@interface Details : UIViewController 
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property NSDictionary *data;

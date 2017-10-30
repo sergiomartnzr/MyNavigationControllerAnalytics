@@ -6,13 +6,13 @@
 //  Copyright © 2017 wgdomenzain. All rights reserved.
 //
 
-#import "List.h"
+#import "Details.h"
 
-@interface List ()
+@interface Details ()
 
 @end
 
-@implementation List
+@implementation Details
 
 - (void)viewDidLoad {
     [super viewDidLoad];
