@@ -36,11 +36,11 @@
 
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.userNames  = [[NSMutableArray alloc] initWithObjects: @"Hugo Boss Green", @"Daenerys Targaryen", @"Jon Snow", @"Arya Stark", @"Cersei Lannister", nil];
+    self.userNames  = [[NSMutableArray alloc] initWithObjects: @"Hugo Boss Green", @"Hugo Boss Gray", @"Hugo Boss Black", @"Hugo Boss Blue", @"Hugo Boss Orange", nil];
     
-        self.userDescriptions  = [[NSMutableArray alloc] initWithObjects: @"Sophisticated green sneakers", @"Daenerys Targaryen is a bad person", @"I hate Jon Snow", @"I love Arya Stark", @"I hate Cersei Lannister", nil];
+        self.userDescriptions  = [[NSMutableArray alloc] initWithObjects: @"Sophisticated green sneakers", @"Awsome gray shoes", @"Elegant black shoes", @"Casual blue tennis", @"Amazing sport shoes", nil];
     
-    self.userAges  = [[NSMutableArray alloc] initWithObjects: @"$4500.00", @"22 años", @"25 años", @"16 años", @"42 años", nil];
+    self.userAges  = [[NSMutableArray alloc] initWithObjects: @"$4500.00", @"$5400.00", @"$7300.00", @"$3600.00", @"7900.00", nil];
 
     self.userImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"green.jpg"], [UIImage imageNamed:@"gray.jpg"], [UIImage imageNamed:@"black.jpg"], [UIImage imageNamed:@"blue.jpg"], [UIImage imageNamed:@"brown.jpg"], nil];
 }
