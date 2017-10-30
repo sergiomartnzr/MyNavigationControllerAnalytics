@@ -42,7 +42,7 @@
     
     self.userAges  = [[NSMutableArray alloc] initWithObjects: @"$4500.00", @"22 años", @"25 años", @"16 años", @"42 años", nil];
 
-    self.userImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"green.jpg"], [UIImage imageNamed:@"daenerys.jpeg"], [UIImage imageNamed:@"jon.jpg"], [UIImage imageNamed:@"arya.jpg"], [UIImage imageNamed:@"cersei.jpg"], nil];
+    self.userImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"green.jpg"], [UIImage imageNamed:@"gray.jpg"], [UIImage imageNamed:@"black.jpg"], [UIImage imageNamed:@"blue.jpg"], [UIImage imageNamed:@"brown.jpg"], nil];
 }
 
 /**********************************************************************************************/
