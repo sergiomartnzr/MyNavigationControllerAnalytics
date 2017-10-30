@@ -30,9 +30,9 @@
     
         [FIRAnalytics logEventWithName:@"Buy_button"
                         parameters:@{
-                                     @"name": self.data[@"name"],
-                                     @"full_text": self.data[@"description"]
-                                     }];
+                                 @"name": self.data[@"name"],
+                                 @"full_text": self.data[@"description"]
+                                 }];
 }
 
 - (void)didReceiveMemoryWarning {

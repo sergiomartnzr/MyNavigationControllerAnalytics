@@ -78,13 +78,21 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    //Firebase event trigger
+    [FIRAnalytics logEventWithName:@"Choose_button"
+                        parameters:@{
+                                     @"name": self.userNames[indexPath.row],
+                                     @"full_text": self.userDescriptions[indexPath.row]
+                                     }];
+    
+    //Send details to the Details view
     self.dataToSend = [[NSMutableArray alloc]init];
     [self.dataToSend addObject:@{
-                                        @"name" :  self.userNames[indexPath.row],
-                                        @"age" : self.userAges[indexPath.row],
-                                        @"image" :  self.userImages[indexPath.row],
-                                        @"description": self.userDescriptions[indexPath.row]
-                                        }];
+                        @"name" :  self.userNames[indexPath.row],
+                        @"age" : self.userAges[indexPath.row],
+                        @"image" :  self.userImages[indexPath.row],
+                        @"description": self.userDescriptions[indexPath.row]
+                        }];
     
     NSDictionary *objectToSend = self.dataToSend[0];
     [self performSegueWithIdentifier:@"secondView" sender:objectToSend];
