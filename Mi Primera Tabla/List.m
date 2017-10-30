@@ -36,13 +36,13 @@
 
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.userNames  = [[NSMutableArray alloc] initWithObjects: @"Tyrion Lannister", @"Daenerys Targaryen", @"Jon Snow", @"Arya Stark", @"Cersei Lannister", nil];
+    self.userNames  = [[NSMutableArray alloc] initWithObjects: @"Hugo Boss Green", @"Daenerys Targaryen", @"Jon Snow", @"Arya Stark", @"Cersei Lannister", nil];
     
-        self.userDescriptions  = [[NSMutableArray alloc] initWithObjects: @"Tyrion Lannister is a man", @"Daenerys Targaryen is a bad person", @"I hate Jon Snow", @"I love Arya Stark", @"I hate Cersei Lannister", nil];
+        self.userDescriptions  = [[NSMutableArray alloc] initWithObjects: @"Sophisticated green sneakers", @"Daenerys Targaryen is a bad person", @"I hate Jon Snow", @"I love Arya Stark", @"I hate Cersei Lannister", nil];
     
-    self.userAges  = [[NSMutableArray alloc] initWithObjects: @"38 años", @"22 años", @"25 años", @"16 años", @"42 años", nil];
+    self.userAges  = [[NSMutableArray alloc] initWithObjects: @"$4500.00", @"22 años", @"25 años", @"16 años", @"42 años", nil];
 
-    self.userImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"tyrion.jpg"], [UIImage imageNamed:@"daenerys.jpeg"], [UIImage imageNamed:@"jon.jpg"], [UIImage imageNamed:@"arya.jpg"], [UIImage imageNamed:@"cersei.jpg"], nil];
+    self.userImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"green.jpg"], [UIImage imageNamed:@"daenerys.jpeg"], [UIImage imageNamed:@"jon.jpg"], [UIImage imageNamed:@"arya.jpg"], [UIImage imageNamed:@"cersei.jpg"], nil];
 }
 
 /**********************************************************************************************/

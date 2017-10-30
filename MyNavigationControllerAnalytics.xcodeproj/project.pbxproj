@@ -22,7 +22,7 @@
 		D19AFA201F734CFF00D53E56 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1B1F734CFF00D53E56 /* cersei.jpg */; };
 		D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */; };
 		D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1D1F734CFF00D53E56 /* jon.jpg */; };
-		D19AFA231F734CFF00D53E56 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */; };
+		ED173A1E1FA6B1BD00191B37 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED173A201FA6B1BD00191B37 /* green.jpg */; };
 		ED6511AD1FA57A1700DA8668 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6511AB1FA57A1700DA8668 /* Login.m */; };
 		ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AC1FA57A1700DA8668 /* Login.xib */; };
 		ED6511B01FA57A3D00DA8668 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AF1FA57A3D00DA8668 /* Podfile */; };
@@ -52,8 +52,8 @@
 		D19AFA1B1F734CFF00D53E56 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
 		D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpeg; sourceTree = "<group>"; };
 		D19AFA1D1F734CFF00D53E56 /* jon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon.jpg; sourceTree = "<group>"; };
-		D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
 		DAC086131B33A0114D37EB51 /* Pods-MyNavigationControllerAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNavigationControllerAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		ED173A1F1FA6B1BD00191B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/green.jpg; sourceTree = "<group>"; };
 		ED6511AA1FA57A1700DA8668 /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		ED6511AB1FA57A1700DA8668 /* Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		ED6511AC1FA57A1700DA8668 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
@@ -173,9 +173,9 @@
 			children = (
 				D19AFA1A1F734CFF00D53E56 /* arya.jpg */,
 				D19AFA1B1F734CFF00D53E56 /* cersei.jpg */,
+				ED173A201FA6B1BD00191B37 /* green.jpg */,
 				D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */,
 				D19AFA1D1F734CFF00D53E56 /* jon.jpg */,
-				D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -243,6 +243,7 @@
 			files = (
 				D19AFA201F734CFF00D53E56 /* cersei.jpg in Resources */,
 				D156EDC11F732FBA00AC7251 /* LaunchScreen.storyboard in Resources */,
+				ED173A1E1FA6B1BD00191B37 /* green.jpg in Resources */,
 				D19AFA1F1F734CFF00D53E56 /* arya.jpg in Resources */,
 				D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */,
 				D156EDBE1F732FBA00AC7251 /* Assets.xcassets in Resources */,
@@ -250,7 +251,6 @@
 				D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */,
 				D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */,
 				D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */,
-				D19AFA231F734CFF00D53E56 /* tyrion.jpg in Resources */,
 				ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */,
 				ED6511B01FA57A3D00DA8668 /* Podfile in Resources */,
 			);
@@ -345,6 +345,14 @@
 				D156EDC01F732FBA00AC7251 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED173A201FA6B1BD00191B37 /* green.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED173A1F1FA6B1BD00191B37 /* Base */,
+			);
+			name = green.jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
