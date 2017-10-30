@@ -11,7 +11,7 @@
 		C6BCDD696737EF18C5B19FFB /* libPods-MyNavigationControllerAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745E24DF320C154A6E62E780 /* libPods-MyNavigationControllerAnalytics.a */; };
 		D156EDB01F732FBA00AC7251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDAF1F732FBA00AC7251 /* main.m */; };
 		D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB21F732FBA00AC7251 /* AppDelegate.m */; };
-		D156EDB61F732FBA00AC7251 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB51F732FBA00AC7251 /* Home.m */; };
+		D156EDB61F732FBA00AC7251 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB51F732FBA00AC7251 /* List.m */; };
 		D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D156EDB71F732FBA00AC7251 /* Main.storyboard */; };
 		D156EDBC1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D156EDBA1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld */; };
 		D156EDBE1F732FBA00AC7251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D156EDBD1F732FBA00AC7251 /* Assets.xcassets */; };
@@ -38,8 +38,8 @@
 		D156EDAF1F732FBA00AC7251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D156EDB11F732FBA00AC7251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D156EDB21F732FBA00AC7251 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D156EDB41F732FBA00AC7251 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
-		D156EDB51F732FBA00AC7251 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		D156EDB41F732FBA00AC7251 /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		D156EDB51F732FBA00AC7251 /* List.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 		D156EDB81F732FBA00AC7251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D156EDBB1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mi_Primera_Tabla.xcdatamodel; sourceTree = "<group>"; };
 		D156EDBD1F732FBA00AC7251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,8 +147,8 @@
 		D156EDC91F732FD500AC7251 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D156EDB41F732FBA00AC7251 /* Home.h */,
-				D156EDB51F732FBA00AC7251 /* Home.m */,
+				D156EDB41F732FBA00AC7251 /* List.h */,
+				D156EDB51F732FBA00AC7251 /* List.m */,
 				ED6511AA1FA57A1700DA8668 /* Login.h */,
 				ED6511AB1FA57A1700DA8668 /* Login.m */,
 				ED6511AC1FA57A1700DA8668 /* Login.xib */,
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D156EDB61F732FBA00AC7251 /* Home.m in Sources */,
+				D156EDB61F732FBA00AC7251 /* List.m in Sources */,
 				D156EDBC1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld in Sources */,
 				D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */,
 				ED6511AD1FA57A1700DA8668 /* Login.m in Sources */,

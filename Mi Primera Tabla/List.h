@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Home : UIViewController
+@interface List : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITableView *tblMain;
 - (IBAction)btnAddPressed:(id)sender;

@@ -6,11 +6,11 @@
 //  Copyright © 2017 wgdomenzain. All rights reserved.
 //
 
-#import "Home.h"
+#import "List.h"
 #import "cellMainTable.h"
 #import "Details.h"
 
-@interface Home ()
+@interface List ()
 @property NSMutableArray *userNames;
 @property NSMutableArray *userAges;
 @property NSMutableArray *userDescriptions;
@@ -19,7 +19,7 @@
 @property NSMutableArray *dataToSend;
 @end
 
-@implementation Home
+@implementation List
 /**********************************************************************************************/
 #pragma mark - Initialization methods
 /**********************************************************************************************/
