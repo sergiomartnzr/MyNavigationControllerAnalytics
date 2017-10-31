@@ -21,6 +21,7 @@
 		ED173A1E1FA6B1BD00191B37 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED173A201FA6B1BD00191B37 /* green.jpg */; };
 		ED173A221FA6B51A00191B37 /* gray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED173A211FA6B50B00191B37 /* gray.jpg */; };
 		ED4B0AF11FA8282200D35666 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4B0AF01FA8282100D35666 /* GoogleService-Info.plist */; };
+		ED54AD6D1FA83A9600926910 /* Back.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54AD6C1FA83A9600926910 /* Back.m */; };
 		ED6511AD1FA57A1700DA8668 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6511AB1FA57A1700DA8668 /* Login.m */; };
 		ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AC1FA57A1700DA8668 /* Login.xib */; };
 		ED6511B01FA57A3D00DA8668 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AF1FA57A3D00DA8668 /* Podfile */; };
@@ -52,6 +53,8 @@
 		ED173A1F1FA6B1BD00191B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/green.jpg; sourceTree = "<group>"; };
 		ED173A211FA6B50B00191B37 /* gray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gray.jpg; sourceTree = "<group>"; };
 		ED4B0AF01FA8282100D35666 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED54AD6B1FA83A9600926910 /* Back.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Back.h; sourceTree = "<group>"; };
+		ED54AD6C1FA83A9600926910 /* Back.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Back.m; sourceTree = "<group>"; };
 		ED6511AA1FA57A1700DA8668 /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		ED6511AB1FA57A1700DA8668 /* Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		ED6511AC1FA57A1700DA8668 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 				ED6511AC1FA57A1700DA8668 /* Login.xib */,
 				1CE7F0551F7BF1CA00D7B268 /* Details.h */,
 				1CE7F0561F7BF1CA00D7B268 /* Details.m */,
+				ED54AD6B1FA83A9600926910 /* Back.h */,
+				ED54AD6C1FA83A9600926910 /* Back.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 			files = (
 				D156EDB61F732FBA00AC7251 /* List.m in Sources */,
 				D156EDBC1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld in Sources */,
+				ED54AD6D1FA83A9600926910 /* Back.m in Sources */,
 				D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */,
 				ED6511AD1FA57A1700DA8668 /* Login.m in Sources */,
 				D19AFA011F7336C000D53E56 /* cellMainTable.m in Sources */,

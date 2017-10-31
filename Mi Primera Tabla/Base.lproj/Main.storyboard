@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="1377" y="88"/>
         </scene>
-        <!--View Controller-->
+        <!--Back-->
         <scene sceneID="crf-l0-GmW">
             <objects>
-                <viewController id="rWR-vh-EJU" sceneMemberID="viewController">
+                <viewController id="rWR-vh-EJU" customClass="Back" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n87-Kl-yJp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,6 +118,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="btnBackPressed:" destination="rWR-vh-EJU" eventType="touchUpInside" id="96f-vT-Tv0"/>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="JDV-yN-zIi"/>
                                 </connections>
                             </button>
