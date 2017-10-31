@@ -18,19 +18,15 @@
 		D156EDC11F732FBA00AC7251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D156EDBF1F732FBA00AC7251 /* LaunchScreen.storyboard */; };
 		D19AFA011F7336C000D53E56 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D19AF9FF1F7336C000D53E56 /* cellMainTable.m */; };
 		D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA001F7336C000D53E56 /* cellMainTable.xib */; };
-		D19AFA1F1F734CFF00D53E56 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1A1F734CFF00D53E56 /* arya.jpg */; };
-		D19AFA201F734CFF00D53E56 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1B1F734CFF00D53E56 /* cersei.jpg */; };
-		D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */; };
-		D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1D1F734CFF00D53E56 /* jon.jpg */; };
 		ED173A1E1FA6B1BD00191B37 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED173A201FA6B1BD00191B37 /* green.jpg */; };
 		ED173A221FA6B51A00191B37 /* gray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED173A211FA6B50B00191B37 /* gray.jpg */; };
+		ED4B0AF11FA8282200D35666 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4B0AF01FA8282100D35666 /* GoogleService-Info.plist */; };
 		ED6511AD1FA57A1700DA8668 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6511AB1FA57A1700DA8668 /* Login.m */; };
 		ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AC1FA57A1700DA8668 /* Login.xib */; };
 		ED6511B01FA57A3D00DA8668 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED6511AF1FA57A3D00DA8668 /* Podfile */; };
 		ED8088C81FA6B688008EF780 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED8088C51FA6B67E008EF780 /* black.jpg */; };
 		ED8088C91FA6B68C008EF780 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED8088C61FA6B67E008EF780 /* blue.jpg */; };
 		ED8088CA1FA6B68F008EF780 /* brown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED8088C71FA6B67E008EF780 /* brown.jpg */; };
-		EDBFEE531FA583FF00402062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDBFEE521FA583FF00402062 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,13 +48,10 @@
 		D19AF9FE1F7336C000D53E56 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
 		D19AF9FF1F7336C000D53E56 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
 		D19AFA001F7336C000D53E56 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
-		D19AFA1A1F734CFF00D53E56 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arya.jpg; sourceTree = "<group>"; };
-		D19AFA1B1F734CFF00D53E56 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
-		D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpeg; sourceTree = "<group>"; };
-		D19AFA1D1F734CFF00D53E56 /* jon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon.jpg; sourceTree = "<group>"; };
 		DAC086131B33A0114D37EB51 /* Pods-MyNavigationControllerAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNavigationControllerAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyNavigationControllerAnalytics/Pods-MyNavigationControllerAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
 		ED173A1F1FA6B1BD00191B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/green.jpg; sourceTree = "<group>"; };
 		ED173A211FA6B50B00191B37 /* gray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gray.jpg; sourceTree = "<group>"; };
+		ED4B0AF01FA8282100D35666 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED6511AA1FA57A1700DA8668 /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		ED6511AB1FA57A1700DA8668 /* Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		ED6511AC1FA57A1700DA8668 /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
@@ -66,7 +59,6 @@
 		ED8088C51FA6B67E008EF780 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
 		ED8088C61FA6B67E008EF780 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
 		ED8088C71FA6B67E008EF780 /* brown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brown.jpg; sourceTree = "<group>"; };
-		EDBFEE521FA583FF00402062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +112,7 @@
 		D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */ = {
 			isa = PBXGroup;
 			children = (
-				EDBFEE521FA583FF00402062 /* GoogleService-Info.plist */,
+				ED4B0AF01FA8282100D35666 /* GoogleService-Info.plist */,
 				D19AFA191F734CFF00D53E56 /* imgs */,
 				D156EDC81F732FCA00AC7251 /* Main */,
 				D156EDC91F732FD500AC7251 /* Controllers */,
@@ -179,15 +171,11 @@
 		D19AFA191F734CFF00D53E56 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				D19AFA1A1F734CFF00D53E56 /* arya.jpg */,
-				D19AFA1B1F734CFF00D53E56 /* cersei.jpg */,
 				ED173A211FA6B50B00191B37 /* gray.jpg */,
 				ED173A201FA6B1BD00191B37 /* green.jpg */,
 				ED8088C51FA6B67E008EF780 /* black.jpg */,
 				ED8088C61FA6B67E008EF780 /* blue.jpg */,
 				ED8088C71FA6B67E008EF780 /* brown.jpg */,
-				D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */,
-				D19AFA1D1F734CFF00D53E56 /* jon.jpg */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -254,15 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8088CA1FA6B68F008EF780 /* brown.jpg in Resources */,
-				D19AFA201F734CFF00D53E56 /* cersei.jpg in Resources */,
 				D156EDC11F732FBA00AC7251 /* LaunchScreen.storyboard in Resources */,
 				ED8088C91FA6B68C008EF780 /* blue.jpg in Resources */,
 				ED173A1E1FA6B1BD00191B37 /* green.jpg in Resources */,
-				D19AFA1F1F734CFF00D53E56 /* arya.jpg in Resources */,
-				D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */,
 				D156EDBE1F732FBA00AC7251 /* Assets.xcassets in Resources */,
-				EDBFEE531FA583FF00402062 /* GoogleService-Info.plist in Resources */,
-				D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */,
+				ED4B0AF11FA8282200D35666 /* GoogleService-Info.plist in Resources */,
 				D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */,
 				D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */,
 				ED6511AE1FA57A1700DA8668 /* Login.xib in Resources */,

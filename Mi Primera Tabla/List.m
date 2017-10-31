@@ -78,12 +78,20 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    //Firebase event trigger
-    [FIRAnalytics logEventWithName:@"Choose_button"
+    //Firebase event trigger (the name is Choose_button_$SHOE_NAME)
+    
+    NSString *eventSuffix = self.userNames[indexPath.row];
+    
+    eventSuffix = [eventSuffix stringByReplacingOccurrencesOfString:@" "
+                                         withString:@"_"];
+    
+    [FIRAnalytics logEventWithName:[NSString stringWithFormat: @"%@_%@", @"Choose_button", eventSuffix]
                         parameters:@{
                                      @"name": self.userNames[indexPath.row],
                                      @"full_text": self.userDescriptions[indexPath.row]
                                      }];
+    
+    NSLog(@"----------------ELEMENT SELECTED");
     
     //Send details to the Details view
     self.dataToSend = [[NSMutableArray alloc]init];

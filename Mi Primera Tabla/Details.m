@@ -28,11 +28,20 @@
 }
 - (IBAction)btnBuyPressed:(id)sender {
     
-        [FIRAnalytics logEventWithName:@"Buy_button"
+        //Firebase trigger event (the event name is Buy_button_$SHOE_NAME)
+    
+        NSString *eventSuffix = self.data[@"name"];
+    
+        eventSuffix = [eventSuffix stringByReplacingOccurrencesOfString:@" "
+                                                             withString:@"_"];
+    
+        [FIRAnalytics logEventWithName: [NSString stringWithFormat: @"%@_%@", @"Buy_button", eventSuffix]
                         parameters:@{
                                  @"name": self.data[@"name"],
                                  @"full_text": self.data[@"description"]
                                  }];
+
+        NSLog(@"----------------ELEMENT BOUGHT");
 }
 
 - (void)didReceiveMemoryWarning {
