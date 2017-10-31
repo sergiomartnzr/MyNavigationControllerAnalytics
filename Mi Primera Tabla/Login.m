@@ -39,6 +39,8 @@
     
     [GIDSignIn sharedInstance].uiDelegate = self;
     [[GIDSignIn sharedInstance] signIn];
+    
+    //[self performSegueWithIdentifier:@"List Scene" sender:self];
 }
 
 - (IBAction)btnSignOutPressed:(id)sender {

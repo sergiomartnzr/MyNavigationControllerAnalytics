@@ -103,7 +103,7 @@
                         }];
     
     NSDictionary *objectToSend = self.dataToSend[0];
-    [self performSegueWithIdentifier:@"secondView" sender:objectToSend];
+    [self performSegueWithIdentifier:@"List-Details" sender:objectToSend];
     NSLog(@"Item selected");
 }
 /**********************************************************************************************/
@@ -165,7 +165,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Make sure your segue name in storyboard is the same as this line
-    if ([[segue identifier] isEqualToString:@"secondView"])
+    if ([[segue identifier] isEqualToString:@"List-Details"])
     {
         Details *controller = [segue destinationViewController];
         controller.data = sender;

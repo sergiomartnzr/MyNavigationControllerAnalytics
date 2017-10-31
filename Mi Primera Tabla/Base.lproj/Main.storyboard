@@ -76,7 +76,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnBuyPressed:" destination="egK-DI-51e" eventType="touchUpInside" id="4rs-hs-0dC"/>
-                                    <segue destination="rWR-vh-EJU" kind="modal" id="zEH-kr-gw2"/>
+                                    <segue destination="rWR-vh-EJU" kind="modal" identifier="Details-Back" id="zEH-kr-gw2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -119,7 +119,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnBackPressed:" destination="rWR-vh-EJU" eventType="touchUpInside" id="96f-vT-Tv0"/>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="JDV-yN-zIi"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" identifier="Back-List" id="JDV-yN-zIi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -147,7 +147,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="push" id="rkO-Tv-lvw"/>
+                                    <segue destination="BYZ-38-t0r" kind="push" identifier="Login-Details" id="nU9-i9-eIu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="97O-al-E7X">
@@ -182,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQU-ks-LKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46" y="124"/>
+            <point key="canvasLocation" x="-45" y="124"/>
         </scene>
         <!--List-->
         <scene sceneID="tne-QT-ifu">
@@ -234,7 +234,7 @@
                     <navigationItem key="navigationItem" id="unT-Dq-aB4"/>
                     <connections>
                         <outlet property="tblMain" destination="3Qd-RE-hXc" id="eR7-1v-nwa"/>
-                        <segue destination="egK-DI-51e" kind="push" identifier="secondView" id="DeA-i9-53w"/>
+                        <segue destination="egK-DI-51e" kind="push" identifier="List-Details" id="DeA-i9-53w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -257,10 +257,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8Q-FP-qSJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-379" y="116"/>
+            <point key="canvasLocation" x="-533" y="124"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="DeA-i9-53w"/>
         <segue reference="JDV-yN-zIi"/>
     </inferredMetricsTieBreakers>
 </document>
